@@ -1,0 +1,150 @@
+#descarga_app{
+display: flex;
+justify-content: center;
+background-color: rgb(223, 220, 220);
+padding: 0px;
+/*La posicion sticky hace que te siga al bajar o subir*/
+position: sticky;
+top:0;
+}
+header{
+    /*Poner horizontal*/
+    display: flex;
+    justify-content:center ;
+    background-color: rgb(235, 234, 234);
+    /*Alinear uniformemente*/
+    justify-content: space-around;
+    /*Alinear los elementos*/
+    align-items: center;
+    margin: top 20px; 
+    position: sticky;
+    top:0;
+}
+
+#cesta{
+    width: 15px;
+    height: 15px;
+}
+
+#logo{
+    width: 160px;
+    height: 45px;
+}
+
+#nav_superior a{
+ /*separar*/
+padding-right: 15px;
+font-family: Courier 15px ;
+color: rgb(84, 84, 84);
+}
+
+#nav_inferior{
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    justify-content:center;
+    padding-top: 15px;
+    font-family: ECI,Arial,sans-serif;
+    
+}
+#nav_inferior a:hover::after{
+    content: "";
+    display: block;
+    /*Tamaño en que lo quiero, en este caso como el elemento anterior*/
+    width: 100%;
+    height: 2px;
+    background-color: black;
+}
+#nav_inferior a{
+    /*separar y quitar color y raya de abajo*/
+    padding-right: 35px;
+    color: black;
+    text-decoration: none;
+}
+
+body{
+margin: 0%;
+}
+
+#barra_busqueda{
+width: 350px;
+height: 25px;
+}
+
+#desplegable_inicio{
+    border: 0px none ;
+    background-color: rgb(235, 234, 234);
+}
+#video{
+    display: flex;
+    justify-content: center;
+    margin-left: 35px;
+    margin-right: 35px;
+}
+#carrusel{
+    margin-left: 35px;
+    margin-right: 35px;
+}
+#carrusel img{
+    justify-content: center;
+    max-width: 100%;
+}
+
+h2 b{/*No te pierdas...*/
+    display: flex;
+    justify-content: center;
+}
+
+.contenedor_oferta{
+    display: flex;
+}
+
+.imagen_oferta{
+    max-width: 100%;
+}
+
+.oferta{
+    margin: 25px;
+}
+
+.oferta:hover{
+    box-shadow: 0 0 10px 0 rgb(233, 233, 233);
+    transform: scale(1.05);
+}
+
+.oferta a{
+    /*enlaces*/
+    text-decoration: none;
+    color: black;
+}
+
+#izq{
+    display: flex;
+    align-items: center;
+}
+footer{
+    display: flex;
+    background-color: rgb(238, 236, 236);
+    justify-content: space-between;
+    /*Alinear los elementos*/
+    align-items: center;
+}
+
+footer svg{
+    padding: 20px;
+    padding-left: 50px;
+    width: 60px;
+    height: 20px;
+}
+
+/*#nav_footer a{
+      /*separar y quitar color y raya de abajo
+      padding-right: 35px;
+      color: black;
+      text-decoration: none;
+      justify-content: end;
+      
+}*/
+
+
+
